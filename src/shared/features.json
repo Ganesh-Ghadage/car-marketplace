@@ -1,0 +1,160 @@
+{
+    "features": [
+      {
+        "name": "sunroof",
+        "label": "Sunroof",
+        "type": "checkbox"
+      },
+      {
+        "name": "leatherSeats",
+        "label": "Leather Seats",
+        "type": "checkbox"
+      },
+      {
+        "name": "heatedSeats",
+        "label": "Heated Seats",
+        "type": "checkbox"
+      },
+      {
+        "name": "bluetooth",
+        "label": "Bluetooth",
+        "type": "checkbox"
+      },
+      {
+        "name": "backupCamera",
+        "label": "Backup Camera",
+        "type": "checkbox"
+      },
+      {
+        "name": "parkingSensors",
+        "label": "Parking Sensors",
+        "type": "checkbox"
+      },
+      {
+        "name": "navigationSystem",
+        "label": "Navigation System",
+        "type": "checkbox"
+      },
+      {
+        "name": "remoteStart",
+        "label": "Remote Start",
+        "type": "checkbox"
+      },
+      {
+        "name": "blindSpotMonitoring",
+        "label": "Blind Spot Monitoring",
+        "type": "checkbox"
+      },
+      {
+        "name": "adaptiveCruiseControl",
+        "label": "Adaptive Cruise Control",
+        "type": "checkbox"
+      },
+      {
+        "name": "automaticEmergencyBraking",
+        "label": "Automatic Emergency Braking",
+        "type": "checkbox"
+      },
+      {
+        "name": "keylessEntry",
+        "label": "Keyless Entry",
+        "type": "checkbox"
+      },
+      {
+        "name": "appleCarPlay",
+        "label": "Apple CarPlay",
+        "type": "checkbox"
+      },
+      {
+        "name": "androidAuto",
+        "label": "Android Auto",
+        "type": "checkbox"
+      },
+      {
+        "name": "premiumAudio",
+        "label": "Premium Audio",
+        "type": "checkbox"
+      },
+      {
+        "name": "fourWheelDrive",
+        "label": "Four-Wheel Drive",
+        "type": "checkbox"
+      },
+      {
+        "name": "laneDepartureWarning",
+        "label": "Lane Departure Warning",
+        "type": "checkbox"
+      },
+      {
+        "name": "powerLiftgate",
+        "label": "Power Liftgate",
+        "type": "checkbox"
+      },
+      {
+        "name": "wirelessCharging",
+        "label": "Wireless Charging",
+        "type": "checkbox"
+      },
+      {
+        "name": "headsUpDisplay",
+        "label": "Heads-Up Display",
+        "type": "checkbox"
+      },
+      {
+        "name": "wifiHotspot",
+        "label": "Wi-Fi Hotspot",
+        "type": "checkbox"
+      },
+      {
+        "name": "ambientLighting",
+        "label": "Ambient Lighting",
+        "type": "checkbox"
+      },
+      {
+        "name": "gestureControl",
+        "label": "Gesture Control",
+        "type": "checkbox"
+      },
+      {
+        "name": "adaptiveHeadlights",
+        "label": "Adaptive Headlights",
+        "type": "checkbox"
+      },
+      {
+        "name": "trafficSignRecognition",
+        "label": "Traffic Sign Recognition",
+        "type": "checkbox"
+      },
+      {
+        "name": "autoParkAssist",
+        "label": "Auto Park Assist",
+        "type": "checkbox"
+      },
+      {
+        "name": "driverAttentionMonitor",
+        "label": "Driver Attention Monitor",
+        "type": "checkbox"
+      },
+      {
+        "name": "360DegreeCamera",
+        "label": "360-Degree Camera",
+        "type": "checkbox"
+      },
+      {
+        "name": "rearCrossTrafficAlert",
+        "label": "Rear Cross-Traffic Alert",
+        "type": "checkbox"
+      },
+      {
+        "name": "collisionAvoidanceSystem",
+        "label": "Collision Avoidance System",
+        "type": "checkbox"
+      },
+      {
+        "name": "overTheAirUpdates",
+        "label": "Over-The-Air Updates",
+        "type": "checkbox"
+      }
+    ]
+  }
+  

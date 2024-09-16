@@ -1,0 +1,150 @@
+{
+    "carDetails": [
+      {
+        "label": "Title",
+        "name": "title",
+        "type": "text",
+        "placeholder": "Enter the title for the car listing",
+        "required": true,
+        "icon": "MdOutlineTitle"
+      },
+      {
+        "label": "Tagline",
+        "name": "tagline",
+        "type": "text",
+        "placeholder": "Enter a catchy tagline for the car",
+        "required": false,
+        "icon": "FaTag"
+      },
+      {
+        "label": "Original Price",
+        "name": "originalPrice",
+        "type": "number",
+        "placeholder": "Enter the original price of the car",
+        "min": 0,
+        "required": true,
+        "icon": "FaDollarSign"
+      },
+      {
+        "label": "Selling Price",
+        "name": "sellingPrice",
+        "type": "number",
+        "placeholder": "Enter the selling price of the car",
+        "min": 0,
+        "required": true,
+        "icon": "FaDollarSign"
+      },
+      {
+        "label": "Model Name",
+        "name": "modelName",
+        "type": "text",
+        "placeholder": "Enter the car model name",
+        "required": true,
+        "icon": "IoLogoModelS"
+      },
+      {
+        "label": "Brand",
+        "name": "brand",
+        "type": "select",
+        "options": ["Tesla", "Ford", "Chevrolet", "BMW", "Audi", "Porsche", "Mercedes-Benz", "Lamborghini", "Ferrari", "Nissan"],
+        "placeholder": "Select the car brand",
+        "required": true,
+        "icon": "PiTrademark"
+      },
+      {
+        "label": "Category",
+        "name": "category",
+        "type": "select",
+        "options": ["Sedan", "SUV", "Coupe", "Convertible", "Hatchback", "Pickup Truck", "Minivan", "Station Wagon", "Sports Car", "EV"],
+        "placeholder": "Select the car category",
+        "required": true,
+        "icon": "MdOutlineCategory"
+      },
+      {
+        "label": "VIN",
+        "name": "vin",
+        "type": "text",
+        "placeholder": "Enter the Vehicle Identification Number (VIN)",
+        "required": true,
+        "icon": "CiBarcode"
+      },
+      {
+        "label": "Mileage",
+        "name": "mileage",
+        "type": "number",
+        "placeholder": "Enter the car mileage",
+        "min": 0,
+        "required": true,
+        "icon": "RiDashboard2Line"
+      },
+      {
+        "label": "Color",
+        "name": "color",
+        "type": "text",
+        "placeholder": "Enter the car color",
+        "required": true,
+        "icon": "MdInvertColors"
+      },
+      {
+        "label": "Door",
+        "name": "door",
+        "type": "text",
+        "placeholder": "Enter the number of car doors",
+        "required": true,
+        "icon": "GiCarDoor"
+      },
+      {
+        "label": "Engine CC",
+        "name": "engineCC",
+        "type": "text",
+        "placeholder": "Enter the amount of Engine CC",
+        "required": true,
+        "icon": "TbEngine"
+      },
+      {
+        "label": "Fuel Type",
+        "name": "fuelType",
+        "type": "select",
+        "options": ["Gasoline", "Diesel", "Electric", "Hybrid", "CNG"],
+        "placeholder": "Select the fuel type",
+        "required": true,
+        "icon": "BsFuelPump"
+      },
+      {
+        "label": "Transmission",
+        "name": "transmission",
+        "type": "select",
+        "options": ["Automatic", "Manual", "Semi-Automatic"],
+        "placeholder": "Select the transmission type",
+        "required": true,
+        "icon": "GiGearStickPattern"
+      },
+      {
+        "label": "Drive Type",
+        "name": "driveType",
+        "type": "select",
+        "options": ["FWD", "RWD", "AWD", "4WD"],
+        "placeholder": "Select the drive type",
+        "required": true,
+        "icon": "TbCar4Wd"
+      },
+      {
+        "label": "Condition",
+        "name": "condition",
+        "type": "select",
+        "options": ["New", "Old", "Certified Pre-Owned"],
+        "placeholder": "Select the car condition",
+        "required": true,
+        "icon": "CiMoneyCheck1"
+      },
+      {
+        "label": "Description",
+        "name": "description",
+        "type": "textarea",
+        "placeholder": "Enter a brief description of the car",
+        "required": false,
+        "icon": "TbListDetails"
+      }
+    ]
+  }
+  
