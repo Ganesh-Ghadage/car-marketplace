@@ -145,35 +145,36 @@ function CarDetails() {
 
 
   return (
-    <div className='p-10 md:px-20'>
-      {/* Header Details componenet */}
-      <HeaderDetails carDetails={carDetails[0]} user={user} />
+    <div>
+      <div className='p-10 md:px-20'>
+        {/* Header Details componenet */}
+        <HeaderDetails carDetails={carDetails[0]} user={user} />
 
-      <div className='grid grid-cols-1 md:grid-cols-3 mt-10 gap-20'>
-        {/* left */}
-        <div className='md:col-span-2'>
-          {/* Image gallary */}
-          <ImageGallery carDetails={carDetails[0]} />
-          {/* Desciption */}
-          <Description carDetails={carDetails[0]} />
-          {/* Fatures List  */}
-          <Features features={carDetails[0]?.features} />
-          {/* Finance Calculator */}
-          <FinanceCalculator />
-        </div>
+        <div className='grid grid-cols-1 md:grid-cols-3 mt-10 gap-20'>
+          {/* left */}
+          <div className='md:col-span-2'>
+            {/* Image gallary */}
+            <ImageGallery carDetails={carDetails[0]} />
+            {/* Desciption */}
+            <Description carDetails={carDetails[0]} />
+            {/* Fatures List  */}
+            <Features features={carDetails[0]?.features} />
+            {/* Finance Calculator */}
+            <FinanceCalculator />
+          </div>
 
-        {/* right */}
-        <div>
-          {/* Pricing */}
-          <Pricing carDetails={carDetails[0]}/>
-          {/* Car Specificatio */}
-          <Specification carDetails={carDetails[0]} />
+          {/* right */}
+          <div>
+            {/* Pricing */}
+            <Pricing carDetails={carDetails[0]}/>
+            {/* Car Specificatio */}
+            <Specification carDetails={carDetails[0]} />
 
-          {/* Owner Details */}
-          <OwnerInfo carDetails={carDetails[0]} />
+            {/* Owner Details */}
+            <OwnerInfo carDetails={carDetails[0]} />
+          </div>
         </div>
       </div>
-
       <MostSearchedCars />
     </div>
   )

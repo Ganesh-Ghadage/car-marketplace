@@ -34,7 +34,7 @@ function HeaderDetails({carDetails , user}) {
                         <p className='text-sm'>{carDetails?.tagline}</p>
                 </div>
                 {carDetails?.createdBy === user?.primaryEmailAddress.emailAddress && 
-                <div className='flex justify-between gap-4'>
+                <div className='grid gap-1 sm:flex sm:justify-between sm:gap-4 '>
                     <Link to={`/add-listing?mode=edit&id=${carDetails?.id}`}>
                         <Button variant="outline" className="flex gap-2 text-lg bg-blue-100 hover:text-primary">Edit <LuClipboardEdit className='text-lg' /></Button>
                     </Link>
@@ -57,7 +57,7 @@ function HeaderDetails({carDetails , user}) {
                 </div>}
             </div>
 
-            <div className='flex gap-2 mt-3'>
+            <div className='grid grid-cols-2 gap-2 sm:flex sm:gap-2 mt-3'>
                 <div className='flex gap-2 items-center bg-blue-50 rounded-full p-2 px-4'>
                     <MdOutlineSpeed className='h-5 w-5 text-primary' />
                     <h2 className='text-primary text-sm'>{carDetails?.mileage}</h2>

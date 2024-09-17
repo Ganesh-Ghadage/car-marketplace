@@ -65,7 +65,7 @@ function SearchPage() {
                         </Alert>
                     </div> :
                     carList?.length > 0 ?
-                    <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 m-4'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 m-4'>
                         {carList?.map((car) => (
                             <div key={car.id}>
                                 <CarCard car={car} />

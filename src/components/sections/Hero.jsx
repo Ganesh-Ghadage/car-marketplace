@@ -10,7 +10,7 @@ function Hero() {
 
             <Search />
 
-            <img src='/tesla.png' alt='Tesla Image' className='mt-20'/>
+            <img src='/tesla.png' alt='Tesla Image' className='sm:mt-20'/>
         </div>
     </div>
   )

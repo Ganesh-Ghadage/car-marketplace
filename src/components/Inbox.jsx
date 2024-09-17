@@ -22,18 +22,18 @@ function Inbox() {
 
   return (
     <div>
-    <div className='p-10 h-[100vh]'>
+    <div className='sm:p-10 rounded-xl'>
         <SendBirdProvider appId={conf.SENDBIRD_APP_ID}
         userId={userID}
         nickname={user?.fullName}
         profileUrl={user?.imageUrl}
         allowProfileEdit={true}
         >
-            <div className='grid grid-cols-1 md:grid-cols-3 h-full gap-5'>
-                <div className='p-5 border shadow-lg w-fit'>
-                    <GroupChannelList onChannelSelect={(channel) => (setChannelUrl(channel?.url))} channelListQueryParams={{includeEmpty: true}}/>
+            <div className='grid grid-cols-1 md:grid-cols-3  gap-5'>
+                <div className='p-5 border shadow-lg w-fit h-[50vh] sm:h-[100vh] rounded-xl'>
+                    <GroupChannelList onChannelSelect={(channel) => (setChannelUrl(channel?.url))} channelListQueryParams={{includeEmpty: true}} />
                 </div>
-                <div className='md:col-span-2 shadow-lg'>
+                <div className='md:col-span-2 shadow-lg h-[100vh] rounded-xl'>
                     <GroupChannel channelUrl={channelUrl} />
                 </div>
             </div>
