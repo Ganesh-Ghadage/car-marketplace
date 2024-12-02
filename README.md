@@ -136,12 +136,6 @@ We ❤️ contributions!
 
 ---
 
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## 🙌 Acknowledgments
 
 - 🔒 [Clerk](https://clerk.dev) for authentication services  
